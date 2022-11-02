@@ -1,10 +1,21 @@
 import React from 'react'
-
+import { Typography } from '@mui/material';
 const Home = () => {
     return (
         <>
+<Typography 
+variant='h1'
+color='primary'
+align='center'>
+Culin'Air
+</Typography>
+<Typography 
+color="secondary"
 
-            <div className="hero min-h-screen" style={{ backgroundImage: `url("asset/pik1.jpg")` }}>
+>
+   Le Tourisme gastronomique à la française 
+</Typography>
+            {/* <div className="hero min-h-screen" style={{ backgroundImage: `url("asset/pik1.jpg")` }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
@@ -13,7 +24,7 @@ const Home = () => {
                         <button className="btn btn-primary">bon appétit</button>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </>
     );
