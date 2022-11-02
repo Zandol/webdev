@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import LocalDiningIcon from '@mui/icons-material/LocalDining';
 
 const Navbars = () => {
     return (
@@ -24,6 +25,7 @@ const Navbars = () => {
         <>
             <Navbar bg="dark" variant="dark" sticky="top">
                 <Container>
+                    <LocalDiningIcon color="primary" fontSize="large" />
                     <Navbar.Brand href="/">Culin'Air</Navbar.Brand>
                     <Nav className="me-auto">
 
